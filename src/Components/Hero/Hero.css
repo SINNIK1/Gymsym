@@ -231,12 +231,23 @@
         font-size: small;
     }
 
-    .right-rate{
+    .right-h{
+        position: relative;
+        background: none;
+    }
+
+    .heart-rate{
         left: 1rem;
         top: 2rem;
     }
 
     .calories{
+        position: relative;
+        top: 5rem;
+        left: 2rem;
+    }
+
+    .calories>img{
         width: 2rem;
     }
 
@@ -251,12 +262,15 @@
         left: 7rem;
         top: 4rem;
         align-self: center;
+        margin-left: 50px;
+
     }
 
     .hero-image-back{
         width: 15rem;
         left: 2rem;
         top: 0rem;
+        margin-left: 50px;
     }
     
     

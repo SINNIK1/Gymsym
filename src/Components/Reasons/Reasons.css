@@ -110,10 +110,12 @@
 
    .left-r>:nth-child(3){
     width: 7rem;
+    height: 6rem;
    }
 
    .left-r>:nth-child(4){
     width: 7rem;
     height: 6rem;
+    margin-right: 10rem;
    }
 }

@@ -13,7 +13,7 @@ const Plans = () => {
         <span className='stroke-text'>NOW WITH US</span>
       </div>
       {/*Plans card*/}
-      <div className="plans">
+      <div className="plans" id='plans'>
         {plansData.map((plan , i)=>(
             <div className="plan" key={i}>
                 {plan.icon}
