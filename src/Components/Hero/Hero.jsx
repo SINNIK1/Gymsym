@@ -26,7 +26,7 @@ const Hero = () => {
     {/*hero heading*/}
     <div className="hero-text">
       <div>
-        <span className='stroke-text'>Shape </span>
+        <span className='stroke-text'>Kartik Ass </span>
         <span>Your</span>
       </div>
       <div>
