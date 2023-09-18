@@ -110,6 +110,8 @@
     right: 3rem;
     top: 2rem;
     color: black;
+    border-radius: 5px;
+    margin-right: 15px;
 }
 
 .heart-rate{
