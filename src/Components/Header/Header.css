@@ -4,8 +4,10 @@
 }
 
 .logo{
-    width: 10rem;
-    height: 3rem;
+    width: 25rem;
+    height: 6.5rem;
+    margin-left: 1rem;
+    margin-top: 0.5rem;
 }
 
 .header-menu{
