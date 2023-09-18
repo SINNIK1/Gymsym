@@ -24,7 +24,7 @@
 .category{
     display: flex;
     flex-direction: column;
-    background-color: gray;
+    background-color: var(--caloryCard);
     padding: 2rem;
     gap: 1rem;
     color: white;
