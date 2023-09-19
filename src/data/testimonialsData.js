@@ -6,20 +6,20 @@ export const testimonialsData = [
   {
     image: image1,
     review:
-      "I made the right choice by choosing the Fitclub and by choosing the right plan and program I already achieved my ideal body!",
-    name: 'MATHEW HENDRICKSON',
+      "I made the right choice by choosing the FitHub and by choosing the right plan and program I already achieved my ideal body!",
+    name: 'MANISH DEVGAN',
     status : 'ENTREPRENEUR'
   },
   {
     image: image2,
-    review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi ipsam, ab itaque nam perferendis impedit sint ',
-    name: 'JOHN KEVIN',
+    review: 'Effective and structured, but room for personalization and interactive support. ',
+    name: 'VARUN THAKUR',
     status: 'COACH'
   },
   {
     image : image3,
-    review:' Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima aspernatur quod voluptatem',
-    name: 'FRANKLIN',
+    review:' Effective workouts and clear instructions, but lacking in personalization and community support.',
+    name: 'ASHISH SINGH',
     status: "CUSTOMER"
   }
 ];
