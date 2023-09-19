@@ -194,7 +194,8 @@
    left: 0; 
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px)
+{
   .hero{
         flex-direction: column;
     } 
@@ -267,7 +268,6 @@
         top: 4rem;
         align-self: center;
         margin-left: 50px;
-
     }
 
     .hero-image-back{

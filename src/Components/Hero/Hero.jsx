@@ -8,7 +8,7 @@ import Calories from '../../assets/calories.png'
 import {motion} from 'framer-motion'
 import NumberCounter from 'number-counter'
 const Hero = () => {
-  const transition = {type:'spring', duration: 3};
+  const transition = {type:"spring", duration: 3};
   const mobile = window.innerWidth<=768 ? true: false;
   return (
     <div className="hero" id= 'home'>
@@ -18,7 +18,7 @@ const Hero = () => {
         {/*the ad*/}
     <div className="the-ad">
       <motion.div 
-      initial={{left: mobile? '165px':'238px'}} 
+      initial={{left: mobile? "165px":'238px'}} 
       whileInView={{left: '8px'}} 
       transition={{...transition, type: 'tween'}}></motion.div>
       <span>the best fitness club in the city</span>  

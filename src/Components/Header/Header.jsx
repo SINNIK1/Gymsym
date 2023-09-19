@@ -13,10 +13,7 @@ const Header = () => {
         <img src={Logo} alt="" className='logo' />
       {(menuOpened=== false && mobile===true)? ( 
       <div>
-        style={{backgroundColor: 'var(--appColor)',
-                padding: '0.5rem',
-                borderRadius: '5px',}}
-        onClick={()=>setMenuOpened(true)}
+        {/* onClick={()=>setMenuOpened(true)} */}
         <img src={Bars} alt ="" style={{width: '1.5rem' , height: '1.5rem'}}/>
       </div>
         ):(
@@ -64,7 +61,7 @@ const Header = () => {
         </ul>
       )} 
     </div>
-  )
-}
+  );
+};
 
 export default Header
