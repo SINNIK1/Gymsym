@@ -80,7 +80,7 @@ const Hero = () => {
         </motion.div>
 
           {/*Hero Images*/}
-          {/* <img src={hero_image} alt="" className="hero-image" /> */}
+          <img src={hero_image} alt="" className="hero-image" />
           <motion.img
             initial={{right: '11rem'}}
             whileInView={{right: '20rem'}}
